@@ -1,0 +1,64 @@
+.frontend {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 25px;
+}
+
+.frontend [alt="HTML"] {
+  width: 200px;
+}
+
+.frontend [alt="CSS"] {
+  width: 200px;
+}
+
+.frontend [alt="Bootstrap"] {
+  width: 200px;
+}
+
+.frontend [alt="Sass"] {
+  width: 200px;
+}
+
+.frontend [alt="Javasacript"] {
+  width: 200px;
+}
+
+.frontend [alt="ReactJs"] {
+  width: 200px;
+}
+
+.frontend p {
+  font-size: 20px;
+}
+
+.frontend .HTML {
+  margin-left: 70px;
+}
+
+.frontend .CSS {
+  margin-left: 90px;
+}
+
+.frontend .BOOTSTRAP {
+  margin-left: 50px;
+}
+
+.frontend .SASS {
+  margin-left: 120px;
+}
+
+.frontend .JS {
+  margin-left: 80px;
+}
+
+.frontend .ReactJs {
+  margin-left: 70px;
+}
+
+footer {
+  margin-top: 100px;
+}
+/*# sourceMappingURL=projectos.css.map */

@@ -1,0 +1,61 @@
+.frontend{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    
+    [alt="HTML"]{
+        width: 200px;
+    }
+
+    [alt="CSS"]{
+        width: 200px;
+    }
+
+    [alt="Bootstrap"]{
+        width: 200px;
+    }
+
+    [alt="Sass"]{
+        width: 200px;
+    }
+
+    [alt="Javasacript"]{
+        width: 200px;
+    }
+
+    [alt="ReactJs"]{
+        width: 200px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    .HTML{
+        margin-left: 70px;
+    }
+
+    .CSS{
+        margin-left: 90px;
+    }
+
+    .BOOTSTRAP{
+        margin-left: 50px;
+    }
+
+    .SASS{
+        margin-left: 120px;
+    }
+
+    .JS{
+        margin-left: 80px;
+    }
+
+    .ReactJs{
+        margin-left: 70px;
+    }
+}
+
+footer{
+    margin-top: 100px;
+}
