@@ -60,7 +60,6 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
             text-decoration: none;
             color:$color
         }
-        
         li{
             list-style: none;
         }
@@ -68,7 +67,6 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
         a:hover{
             border-bottom: 2px solid #ffffff;
         }
-    
     }
 }
 
@@ -102,7 +100,6 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 25px;
-        
         [alt="Español"]{
             width: 300px;
         }
@@ -136,7 +133,6 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 25px;
-        
         [alt="HTML"]{
             width: 200px;
         }
@@ -203,15 +199,9 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
             width: 200px;
         }
 
-        [alt="NodeJS"]{
             width: 200px;
         }
 
-        [alt="MongoDB"]{
-            width: 200px;
-        }
-
-        [alt="expressjs"]{
             width: 200px;
         }
 
@@ -219,15 +209,9 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
             font-size: 20px;
         }
 
-        .NodeJS{
             margin-left: 50px;
         }
 
-        .MongoDB{
-            margin-left: 50px;
-        }
-
-        .expressjs{
             margin-left: 50px;
         }
 
@@ -288,8 +272,6 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
         img{
             width: 300px;
         }
-    
-       
     }
 }
 
@@ -425,7 +407,6 @@ footer{
     .nav-projects{
         #show-projects{
             grid-template-columns: 1fr;
-            
         }
     }
 
@@ -438,22 +419,18 @@ footer{
                 color: aqua;
                 font-size: 60px;
             }
-    
             i:hover{
                 color: rgb(8, 230, 163);
             }
-    
             #intagram{
                 margin-left: 100px;
             }
-    
             #linkedin{
                 margin-left: 60px;
             }
         }
     }
 }
-  
 @media (max-width: 600px) {
     .menu-btn{
       display: block;
@@ -545,7 +522,6 @@ footer{
     }
 
     footer{
-        
         .nav-contacts{
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -554,15 +530,12 @@ footer{
                 color: aqua;
                 font-size: 60px;
             }
-    
             i:hover{
                 color: rgb(8, 230, 163);
             }
-    
             #intagram{
                 margin-left: 40px;
             }
-    
             #linkedin{
                 margin-left: 50px;
             }
