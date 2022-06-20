@@ -198,10 +198,11 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
         [alt="MySQL"]{
             width: 200px;
         }
-
+        [alt="Python"]{
             width: 200px;
         }
 
+        [alt="Django"]{
             width: 200px;
         }
 
@@ -209,12 +210,14 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
             font-size: 20px;
         }
 
+        .Python{
             margin-left: 50px;
         }
 
+        .Django{
             margin-left: 50px;
         }
-
+        
         .SQL{
             margin-left: 80px;
         }
