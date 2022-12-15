@@ -209,16 +209,16 @@ body {
 .nav-show-tools .backend {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
   gap: 25px;
 }
 
-.nav-show-tools .backend [alt="Python"] {
+.nav-show-tools .backend [alt="C#"] {
   width: 200px;
 }
 
-.nav-show-tools .backend [alt="Django"] {
+.nav-show-tools .backend [alt="NetCore"] {
   width: 200px;
 }
 
@@ -238,28 +238,16 @@ body {
   width: 200px;
 }
 
-.nav-show-tools .backend [alt="NodeJS"] {
-  width: 200px;
-}
-
-.nav-show-tools .backend [alt="MongoDB"] {
-  width: 200px;
-}
-
-.nav-show-tools .backend [alt="expressjs"] {
-  width: 200px;
-}
-
 .nav-show-tools .backend p {
   font-size: 20px;
 }
 
-.nav-show-tools .backend .Python {
-  margin-left: 60px;
+.nav-show-tools .backend .Csharp {
+  margin-left: 80px;
 }
 
-.nav-show-tools .backend .Django {
-  margin-left: 40px;
+.nav-show-tools .backend .NetCore {
+  margin-left: 0px;
 }
 
 .nav-show-tools .backend .Java {
@@ -267,18 +255,6 @@ body {
 }
 
 .nav-show-tools .backend .Spring {
-  margin-left: 50px;
-}
-
-.nav-show-tools .backend .NodeJS {
-  margin-left: 50px;
-}
-
-.nav-show-tools .backend .MongoDB {
-  margin-left: 50px;
-}
-
-.nav-show-tools .backend .expressjs {
   margin-left: 50px;
 }
 
